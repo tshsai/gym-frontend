@@ -148,10 +148,59 @@ body {
 .image{
     padding: 20px;
 }
+.features{
+    margin-top: 20px;
+    background-color: rgb(15, 13, 13);
+    border-radius: 30px;
+    
+    
+    color: white;
+    padding: 30px;
+    margin: 30px;
+}
+.features h1{
+    font-size: 3rem;
+    color: #f00;
+}
 
+.card{   
+    box-shadow: 0 4px 8px 0 rgba(151, 145, 145, 0.931);
+    transition: 0.3s;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+   margin-left: 30px;
 
-
-
-
+}
+.card h2{
+    font-size: 3rem;
+    color: rgb(14, 236, 11);
+}
+.card p{
+    font-size: 2rem;
+    
+}
+.cards{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.card img{
+    width:300px;
+    height: auto;
+}
+.matter{
+    padding:20px
+}
+.card li{
+    font-size: 1.5rem;
+    color: white;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgb(252, 251, 251);
+}
+.text{
+    text-align: center;
+}
 
 

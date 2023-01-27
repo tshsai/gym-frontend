@@ -60,7 +60,8 @@ body {
 }
 
 .header .navbar a:hover {
-    background: red;
+    background: linear-gradient(to right,blue,pink);
+    color: rgb(206, 251, 4);
 }
 
 .home {
@@ -334,4 +335,42 @@ body {
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
+}
+.blogs{
+    margin-top: 20px;
+    background-color: rgb(15, 13, 13);
+    border-radius: 30px;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+    
+}
+.blogs h1{
+    font-size: 3rem;
+    color: #f00;
+    text-align: center;
+}
+.blog{
+    
+    padding: 20px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(234, 131, 131, 0.931);
+    margin-bottom: 20px;
+}
+.blog img{
+    width: 150px;
+    height: 80px;
+    border-radius: 40px;
+}
+.blog-content{
+    padding-left: 20px;
+}
+.blog-content p{
+    font-size: 2rem;
+}
+.title{
+    padding-bottom: 20px;
+}
+.blog:hover{
+    box-shadow: 0 4px 8px 0 rgba(203, 32, 32, 0.931);
 }

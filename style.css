@@ -37,9 +37,9 @@ body {
             -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 9%;
-    z-index: 10000;
+    z-index: 12000;
     background: rgb(2, 2, 2); 
-    opacity: 0.6;             
+    margin-bottom: 100px;            
 }
 
 .header .logo {
@@ -65,8 +65,9 @@ body {
 
 .home {
     padding: 0;
-    margin-top: 5rem;
+    
 }
+
 
 .home .slide {
     min-height: 70vh;
@@ -119,6 +120,7 @@ body {
     background: #fff;
     border-radius: 0;
 }
+
 .content{
     display: flex;
     align-items:center ;
@@ -167,13 +169,13 @@ body {
     box-shadow: 0 4px 8px 0 rgba(151, 145, 145, 0.931);
     transition: 0.3s;
     width: 400px;
-    height: auto;
+    height: 500px;
     padding: 20px;
    margin-left: 30px;
 
 }
 .card h2{
-    font-size: 3rem;
+    font-size: 5rem;
     color: rgb(14, 236, 11);
 }
 .card p{
@@ -187,10 +189,13 @@ body {
 }
 .card img{
     width:300px;
-    height: auto;
+    height: 200px;
 }
 .matter{
-    padding:20px
+    padding:20px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
 }
 .card li{
     font-size: 1.5rem;
@@ -202,5 +207,131 @@ body {
 .text{
     text-align: center;
 }
+.attachment h2{
+    font-size: 2rem;
+}
 
-
+.pricing{
+    margin-top: 20px;
+    background-color: rgb(15, 13, 13);
+    border-radius: 30px;
+    
+    
+    color: white;
+    padding: 30px;
+    margin: 30px;
+}
+.pricing h1{
+    font-size: 4rem;
+    color: #f00;
+}
+.rate{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.rate h3{
+    font-size: 3rem;
+}
+.rate h4{
+    font-size: 1rem;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.container h3{
+    font-size: 2rem;
+}
+.container h4{
+    font-size: 1.5rem;
+}
+.slider{
+    width:90%;
+    height:500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 20px auto;
+    text-align: center;
+}
+#img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.slider img{
+    width:50%;
+    height:100%;
+}
+.home{
+    margin-top: 20px;
+    
+    border-radius: 30px;
+    
+    
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.trainers{
+    margin-top: 20px;
+    background-color: rgb(15, 13, 13);
+    border-radius: 30px;
+    
+    
+    color: white;
+    padding: 30px;
+    margin: 30px;
+}
+.trainers{
+    margin-top: 20px;
+    background-color: rgb(15, 13, 13);
+    border-radius: 30px;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+}
+.trainers h1{
+    font-size: 3rem;
+    color: #f00;
+    
+}
+.trainers{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.trainers table{
+    width: 100%;
+    
+}
+.trainers table,th,td{
+    border: 1px solid white;
+    font-size: 2rem;
+    border-collapse: collapse;
+}
+.trainers table,th{
+    color: rgb(10, 173, 237);
+}
+.trainers table img{
+    width: 250px;
+    height: 180px;
+    border-radius: 30px;
+}
+.trainers table th{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    /* text-align: center; */
+}
+.tb{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}

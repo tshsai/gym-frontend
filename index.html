@@ -27,18 +27,11 @@
     </header>
     
     <section class="home" id="home">
-        <div class="swiper home-slider">
-
-                <div class="swiper-slide slide" style="background: url(./images/image1.jpg) no-repeat;">
-                    <div class="content">
-                        <span>Image1</span>
-                        <h3>Exercising is good for our health</h3>
-                        <a href="#" class="btn">Gets started</a>
-                    </div>
+            <div class="slider">
+                <div id="img">
+                    <img src="./images/slider1.jpg" alt="">
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
-        </div>
     </section>
     <section class="about" id="about">
         <h1>Do You Know About "HealthyFit"?</h1>
@@ -48,9 +41,12 @@
             </div>
             <div class="attachment">
                 <h2>One of the most Popular Gyms which even provide online sessions</h2>
-                <h2>Will be providing sessions from Monday to Saturday and timings are from morning 5AM to 9PM</h2>
                 <h2>Providing the expert trainers</h2>
+                <h2>Will be providing sessions from Monday to Saturday and timings are from morning 5AM to 9PM</h2>
+                
                 <h2>Get started by seeing amazing packages which are present in <span style="color: red;">Pricing Section</span> </h2>
+                <h2>Contact us through dropping a mail at <span style="color: red;">myhealthyfit@gmail.com</span> </h2>
+                
 
 
             </div>
@@ -99,6 +95,94 @@
             </div>
         </div>
     </section>
+    <section class="pricing" id="pricing">
+        <h1 class="text">pricing</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="./images/bicep.jpg" alt="">
+                <div class="matter">
+                    <h2>Bicep</h2>
+                    <div class="container">
+                        <h3>You can have training at &nbsp;</h3>
+                        <h4>Rs</h4>
+                        <h3>35,000</h3>
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/chest.jpg" alt="">
+                <div class="matter">
+                    <h2>Chest</h2>
+                    <div class="container">
+                        <h3>You can have training at &nbsp;</h3>
+                        <h4>Rs</h4>
+                        <h3>22,500</h3>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/tricep.jpg" alt="">
+                <div class="matter">
+                    <h2>Tricep</h2>
+                    <div class="container">
+                        <h3>You can have training at &nbsp;</h3>
+                        <h4>Rs</h4>
+                        <h3>22,000</h3>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trainers" id="trainers">
+        <h1>Trainer Information</h1>
+        <div class="tb">
+            <table>
+                <tr>
+                    <th>Photo</th>
+                    <th>Name of the Trainer</th>
+                    <th>Experience</th>
+                </tr>
+                <tr>
+                    <td> <img src="./images/trainer1.jpg" alt=""> </td>
+                    <td><p>Alex</p></td>
+                    <td> <p>5yrs</p> </td>
+                </tr>
+                <tr>
+                    <td><img src="./images/trainer2.jpg" alt=""></td>
+                    <td> <p>Ram</p> </td>
+                    <td> <p>3yrs</p> </td>
+                </tr>
+                <tr>
+                    <td><img src="./images/trainer3.jpg" alt=""></td>
+                    <td> <p>Robert</p> </td>
+                    <td> <p>8yrs</p> </td> 
+                </tr>
+            </table>
+        </div>
+    </section>
+<script>
+    var img = document.getElementById('img');
+    var slides=['./images/tricep.jpg','./images/slider1.jpg','./images/slider2.jpg','./images/slider3.jpg']
+    var Start=0;
 
+function slider(){
+    if(Start<slides.length){
+        Start=Start+1;
+    }
+    else{
+        Start=1;
+    }
+    console.log(img);
+    img.innerHTML = "<img src="+slides[Start-1]+">";
+   
+}
+setInterval(slider,2000);
+</script>
 </body>
 </html>

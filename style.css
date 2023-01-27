@@ -39,7 +39,8 @@ body {
     padding: 0 9%;
     z-index: 12000;
     background: rgb(2, 2, 2); 
-    margin-bottom: 100px;            
+    margin-bottom: 100px;   
+             
 }
 
 .header .logo {
@@ -253,7 +254,7 @@ body {
     width:90%;
     height:500px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    margin: 20px auto;
+    margin-top: 50px;
     text-align: center;
 }
 #img{
@@ -372,5 +373,5 @@ body {
     padding-bottom: 20px;
 }
 .blog:hover{
-    box-shadow: 0 4px 8px 0 rgba(203, 32, 32, 0.931);
+    box-shadow: 4px 4px 8px 4px rgba(244, 0, 0, 0.931);
 }
